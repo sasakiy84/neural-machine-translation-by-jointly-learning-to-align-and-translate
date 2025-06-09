@@ -5,7 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
+    "matplotlib>=3.9.4",
+    "mecab-python3>=1.0.10",
+    "nltk>=3.9.1",
     "numpy>=2.0.2",
     "pytest>=8.3.5",
     "torch>=2.7.0",
+    "unidic-lite>=1.0.8",
 ]
